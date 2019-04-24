@@ -1,3 +1,44 @@
 /* Define your CSS styles here */
 /* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
 
+body{
+    background-color: white;
+}
+
+.keyboard{
+    width:615px; height: 220px;
+    background-color: black;
+    margin: 0px auto;
+    border-radius: 9px;
+    padding: 30px;
+    color: white;
+}
+
+.key{
+    width: 40px; height:40px;
+    display:block;
+    background-color:red;
+    text-align: left;
+    padding-left: 8px;
+    line-height: 29px;
+    border-radius: 9px;
+    float:left; margin-left: 2px;
+    margin-bottom:2px;
+    cursor: pointer;
+}
+
+.space1{margin-right: 25px !important;}
+.space2{margin-right: 80px !important;}
+.space3{width:15px}
+.space4{width:15px}
+.simbol {width:30px; }
+.backspace {width:84px; }
+.tab {width: 50px; font-size:13px;}
+.letter{width:30px;}
+.enter{width:70px; text-align: center; padding-left:0; background: orange;}
+.shift{width: 70px; background: orange;}
+.accept{width:70px; background: orange;}
+.cancel{width:70px; background: orange;}
+.space{width:234px;}
+.hidden{visibility: hidden;}
+.key:active{background: blue;}
